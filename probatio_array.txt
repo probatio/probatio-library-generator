@@ -1,0 +1,21 @@
+/*
+Probatio populating array:
+*/
+
+Block dual_buttons_1(BLOCK_DUAL_BUTTONS_1, SIZE_BLOCK_DUAL_BUTTONS_1, 0, 10, "dual_buttons_1");
+Block obsf_24(BLOCK_OBSF_24, SIZE_BLOCK_OBSF_24, 0, 12, "obsf_24");
+Block obsf_30(BLOCK_OBSF_30, SIZE_BLOCK_OBSF_30, 0, 13, "obsf_30");
+Block cherries_1(BLOCK_CHERRIES_1, SIZE_BLOCK_CHERRIES_1, 0, 14, "cherries_1");
+Block dual_pots_1(BLOCK_DUAL_POTS_1, SIZE_BLOCK_DUAL_POTS_1, 0, 18, "dual_pots_1");
+Block tap_1(BLOCK_TAP_1, SIZE_BLOCK_TAP_1, 0, 20, "tap_1");
+Block tap_2(BLOCK_TAP_2, SIZE_BLOCK_TAP_2, 0, 21, "tap_2");
+Block dual_pistons_1(BLOCK_DUAL_PISTONS_1, SIZE_BLOCK_DUAL_PISTONS_1, 0, 22, "dual_pistons_1");
+Block joystick_1(BLOCK_JOYSTICK_1, SIZE_BLOCK_JOYSTICK_1, 0, 24, "joystick_1");
+Block four_pistons_1(BLOCK_FOUR_PISTONS_1, SIZE_BLOCK_FOUR_PISTONS_1, 0, 27, "four_pistons_1");
+Block four_thumbs_1(BLOCK_FOUR_THUMBS_1, SIZE_BLOCK_FOUR_THUMBS_1, 0, 31, "four_thumbs_1");
+Block dof4_joystick_1(BLOCK_DOF4_JOYSTICK_1, SIZE_BLOCK_DOF4_JOYSTICK_1, 0, 35, "dof4_joystick_1");
+Block dof4_joystick_2(BLOCK_DOF4_JOYSTICK_2, SIZE_BLOCK_DOF4_JOYSTICK_2, 0, 39, "dof4_joystick_2");
+Block crank_1(BLOCK_CRANK_1, SIZE_BLOCK_CRANK_1, 0, 43, "crank_1");
+Block dial_1(BLOCK_DIAL_1, SIZE_BLOCK_DIAL_1, 0, 45, "dial_1");
+Block debug(BLOCK_DEBUG, SIZE_BLOCK_DEBUG, 0, 47, "debug");
+Block* blocks[QUANTITY_BLOCKS] = {, &dual_buttons_1, &obsf_24, &obsf_30, &cherries_1, &dual_pots_1, &tap_1, &tap_2, &dual_pistons_1, &joystick_1, &four_pistons_1, &four_thumbs_1, &dof4_joystick_1, &dof4_joystick_2, &crank_1, &dial_1, &debug};
